@@ -48,7 +48,8 @@
     "@stdlib/ndarray-base-unary-loop-interchange-order": "^0.2.1",
     "@stdlib/ndarray-base-unary-tiling-block-size": "^0.2.2",
     "@stdlib/ndarray-base-vind2bind": "^0.2.2",
-    "@stdlib/types": "^0.4.1"
+    "@stdlib/types": "^0.4.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-complex128": "^0.3.0",
