@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-28)
+## Unreleased (2024-12-14)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`b4502fb`](https://github.com/stdlib-js/stdlib/commit/b4502fbc4da03910f86c66e68b53e93e99e3e933) - remove perf logic in order to ensure expected indices in callback
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`b4502fb`](https://github.com/stdlib-js/stdlib/commit/b4502fbc4da03910f86c66e68b53e93e99e3e933) - **fix:** remove perf logic in order to ensure expected indices in callback _(by Athan Reines)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`5debe82`](https://github.com/stdlib-js/stdlib/commit/5debe8216a1449be68fad01af52d896e63163191) - **test:** add tests to `ndarray/base/map` [(#2810)](https://github.com/stdlib-js/stdlib/pull/2810) _(by Muhammad Haris, Athan Reines)_
 -   [`6a3b3d7`](https://github.com/stdlib-js/stdlib/commit/6a3b3d731ca697a62e3d58900e1b6cb06e7667dd) - **chore:** update directories meta data _(by Athan Reines)_
