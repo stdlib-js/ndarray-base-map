@@ -34,6 +34,8 @@
 
 <details>
 
+-   [`0fb7df7`](https://github.com/stdlib-js/stdlib/commit/0fb7df7fe84102add9858f53da605a6f2e0d42a9) - **docs:** document expected properties for accessor kernels _(by Athan Reines)_
+-   [`529687d`](https://github.com/stdlib-js/stdlib/commit/529687d72291fe7c2f717e24bffe55130375139d) - **refactor:** avoid duplicate computation _(by Athan Reines)_
 -   [`a19b8f2`](https://github.com/stdlib-js/stdlib/commit/a19b8f2405c62dd79247ef4c3a9a1cadda1f3576) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
 -   [`71e6a7f`](https://github.com/stdlib-js/stdlib/commit/71e6a7f82bcc08d20d09772ba0e99c825be191bf) - **fix:** use computed order _(by Athan Reines)_
 -   [`3938b26`](https://github.com/stdlib-js/stdlib/commit/3938b265e603116448c89fcaa58df70e79d40f59) - **refactor:** update paths _(by Gururaj Gurram)_
