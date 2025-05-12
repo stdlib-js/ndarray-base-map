@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-08)
+## Unreleased (2025-05-12)
 
 <section class="features">
 
@@ -20,6 +20,8 @@
 
 ### Bug Fixes
 
+-   [`9a1ee35`](https://github.com/stdlib-js/stdlib/commit/9a1ee35193c5c474720c58f34d9584f41108bc5c) - account for loop tiling when generating list of indices
+-   [`a8bac64`](https://github.com/stdlib-js/stdlib/commit/a8bac644b23c4413a566f309b43857ad779f05cc) - check for row-major value
 -   [`a19b8f2`](https://github.com/stdlib-js/stdlib/commit/a19b8f2405c62dd79247ef4c3a9a1cadda1f3576) - use resolved order when computing loop variables
 -   [`71e6a7f`](https://github.com/stdlib-js/stdlib/commit/71e6a7f82bcc08d20d09772ba0e99c825be191bf) - use computed order
 -   [`b4502fb`](https://github.com/stdlib-js/stdlib/commit/b4502fbc4da03910f86c66e68b53e93e99e3e933) - remove perf logic in order to ensure expected indices in callback
@@ -34,6 +36,9 @@
 
 <details>
 
+-   [`65748be`](https://github.com/stdlib-js/stdlib/commit/65748bea9a961babc95ff0f63b08f785097c79f9) - **docs:** fix parameter name _(by Athan Reines)_
+-   [`9a1ee35`](https://github.com/stdlib-js/stdlib/commit/9a1ee35193c5c474720c58f34d9584f41108bc5c) - **fix:** account for loop tiling when generating list of indices _(by Athan Reines)_
+-   [`a8bac64`](https://github.com/stdlib-js/stdlib/commit/a8bac644b23c4413a566f309b43857ad779f05cc) - **fix:** check for row-major value _(by Athan Reines)_
 -   [`0fb7df7`](https://github.com/stdlib-js/stdlib/commit/0fb7df7fe84102add9858f53da605a6f2e0d42a9) - **docs:** document expected properties for accessor kernels _(by Athan Reines)_
 -   [`529687d`](https://github.com/stdlib-js/stdlib/commit/529687d72291fe7c2f717e24bffe55130375139d) - **refactor:** avoid duplicate computation _(by Athan Reines)_
 -   [`a19b8f2`](https://github.com/stdlib-js/stdlib/commit/a19b8f2405c62dd79247ef4c3a9a1cadda1f3576) - **fix:** use resolved order when computing loop variables _(by Athan Reines)_
