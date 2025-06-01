@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-06-01)
 
 <section class="features">
 
@@ -36,6 +36,7 @@
 
 <details>
 
+-   [`0367f1d`](https://github.com/stdlib-js/stdlib/commit/0367f1d22be37c646f5a354c6c34ee3a755b3aeb) - **refactor:** fix error messages and use string interpolation _(by Athan Reines)_
 -   [`65748be`](https://github.com/stdlib-js/stdlib/commit/65748bea9a961babc95ff0f63b08f785097c79f9) - **docs:** fix parameter name _(by Athan Reines)_
 -   [`9a1ee35`](https://github.com/stdlib-js/stdlib/commit/9a1ee35193c5c474720c58f34d9584f41108bc5c) - **fix:** account for loop tiling when generating list of indices _(by Athan Reines)_
 -   [`a8bac64`](https://github.com/stdlib-js/stdlib/commit/a8bac644b23c4413a566f309b43857ad779f05cc) - **fix:** check for row-major value _(by Athan Reines)_
