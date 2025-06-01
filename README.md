@@ -114,7 +114,7 @@ var y = {
     'order': 'row-major'
 };
 
-// Apply the map function:
+// Apply function:
 map( [ x, y ], scale );
 
 console.log( y.data );
