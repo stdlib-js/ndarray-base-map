@@ -79,6 +79,7 @@
     "@stdlib/ndarray-ctor": "^0.2.2",
     "@stdlib/ndarray-from-scalar": "^0.2.1",
     "@stdlib/number-float64-base-identity": "github:stdlib-js/number-float64-base-identity#main",
+    "@stdlib/random-array-discrete-uniform": "^0.2.1",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
     "@stdlib/utils-nary-function": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
