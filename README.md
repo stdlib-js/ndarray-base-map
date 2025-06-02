@@ -41,38 +41,32 @@ limitations under the License.
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-map
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-map = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-map@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var map = require( 'path/to/vendor/umd/ndarray-base-map/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-map@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.map;
-})();
-</script>
+var map = require( '@stdlib/ndarray-base-map' );
 ```
 
 #### map( arrays, fcn\[, thisArg] )
@@ -103,7 +97,6 @@ var oy = 0;
 
 // Create the input and output ndarray-like objects:
 var x = {
-    'ref': null,
     'dtype': 'float64',
     'data': xbuf,
     'shape': shape,
@@ -168,15 +161,9 @@ The callback function is provided the following arguments:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {.factory;
-var filledarray = require( '@stdlib/array-filled' );
-var filledarrayBy = require( '@stdlib/array-filled-by' );
+```javascript
+var discreteUniform = require( '@stdlib/random-array-discrete-uniform' );
+var zeros = require( '@stdlib/array-zeros' );
 var abs = require( '@stdlib/math-base-special-abs' );
 var shape2strides = require( '@stdlib/ndarray-base-shape2strides' );
 var ndarray2array = require( '@stdlib/ndarray-base-to-array' );
@@ -186,7 +173,9 @@ var map = require( '@stdlib/ndarray-base-map' );
 var N = 10;
 var x = {
     'dtype': 'generic',
-    'data': filledarrayBy( N, 'generic', discreteUniform( -100, 100 ) ),
+    'data': discreteUniform( N, -100, 100, {
+        'dtype': 'generic'
+    }),
     'shape': [ 5, 2 ],
     'strides': [ 2, 1 ],
     'offset': 0,
@@ -194,7 +183,7 @@ var x = {
 };
 var y = {
     'dtype': 'generic',
-    'data': filledarray( 0, N, 'generic' ),
+    'data': zeros( N, 'generic' ),
     'shape': x.shape.slice(),
     'strides': shape2strides( x.shape, 'column-major' ),
     'offset': 0,
@@ -204,11 +193,6 @@ var y = {
 map( [ x, y ], naryFunction( abs, 1 ) );
 console.log( ndarray2array( x.data, x.shape, x.strides, x.offset, x.order ) );
 console.log( ndarray2array( y.data, y.shape, y.strides, y.offset, y.order ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
