@@ -97,7 +97,6 @@ var oy = 0;
 
 // Create the input and output ndarray-like objects:
 var x = {
-    'ref': null,
     'dtype': 'float64',
     'data': xbuf,
     'shape': shape,
