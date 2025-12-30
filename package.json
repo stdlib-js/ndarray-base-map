@@ -75,6 +75,7 @@
     "@stdlib/ndarray-base-strides2offset": "^0.2.2",
     "@stdlib/ndarray-base-to-array": "^0.2.1",
     "@stdlib/ndarray-ctor": "^0.2.2",
+    "@stdlib/ndarray-data-buffer": "^0.2.2",
     "@stdlib/ndarray-from-scalar": "^0.2.1",
     "@stdlib/number-float64-base-identity": "github:stdlib-js/number-float64-base-identity#main",
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
