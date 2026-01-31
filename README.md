@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-map@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-map/tags). For example,
+
+```javascript
 import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-map@v0.1.0-deno/mod.js';
 ```
 
@@ -150,7 +155,7 @@ import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@den
 import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@deno/mod.js';
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
-import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-map@v0.1.0-deno/mod.js';
+import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-map@deno/mod.js';
 
 var N = 10;
 var x = {
