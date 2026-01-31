@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-map@deno/mod.js';
+import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-map@v0.1.0-deno/mod.js';
 ```
 
 #### map( arrays, fcn\[, thisArg] )
@@ -150,7 +150,7 @@ import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@den
 import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@deno/mod.js';
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
-import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-map@deno/mod.js';
+import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-map@v0.1.0-deno/mod.js';
 
 var N = 10;
 var x = {
