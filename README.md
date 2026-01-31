@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-map@esm/index.mjs';
+import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-map@v0.1.0-esm/index.mjs';
 ```
 
 #### map( arrays, fcn\[, thisArg] )
@@ -155,7 +155,7 @@ import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@esm
 import shape2strides from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-to-array@esm/index.mjs';
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@esm/index.mjs';
-import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-map@esm/index.mjs';
+import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-map@v0.1.0-esm/index.mjs';
 
 var N = 10;
 var x = {
