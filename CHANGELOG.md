@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-04)
+## Unreleased (2026-11-20)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`62e29f4`](https://github.com/stdlib-js/stdlib/commit/62e29f41351eef1e64a336c9094d6c8ef2d0749d) - **docs:** improve doctests for complex number typed arrays in `ndarray/base/map` [(#12050)](https://github.com/stdlib-js/stdlib/pull/12050) _(by Karan Anand)_
 -   [`ad3f046`](https://github.com/stdlib-js/stdlib/commit/ad3f04667c2cc32b6e749d8b08259afecff3f1e8) - **bench:** refactor to use string interpolation in `@stdlib/ndarray-base` [(#11434)](https://github.com/stdlib-js/stdlib/pull/11434) _(by Karan Anand)_
 
@@ -25,9 +26,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
